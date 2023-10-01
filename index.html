@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de CEP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="selecaoPrincipal">
+        
+        <h3 class="textoValido" id="textoValido" ></h3>
+
+        <section class="diplayFLEX">
+
+            <input type="text" placeholder="Digite um CEP" class="textoCEP classtextoParecer " id="textoInput">
+
+            <button type="submit" id="botãoBusca" class="botao botaoAperecer "> <img src="img/lupa.png" alt=""
+                    height="20px" width="20px"> </button>
+
+        </section>
+
+        <section id="area" class="informacoes hide">
+
+            <section class="informacao">
+
+                <h3>Logradouro:</h3>
+                <p id="rua" class="informacao">Não Encontrado</p>
+
+            </section>
+
+            <section class="informacao">
+
+                <h3>Bairro:</h3>
+                <p id="Bairro" class="informacao">Não Encontrado</p>
+
+            </section>
+
+            <section class="informacao">
+
+                <h3>CEP:</h3>
+                <p id="CEP" class="informacao">Não Encontrado</p>
+
+            </section>
+
+            <section class="informacao">
+
+                <h3 class="diplayFLEX"> <img src="img/localizacao.png" alt="" height="30px" width="30px"> Localidade:
+                </h3>
+                <p id="Localidade" class="informacao">Não Encontrado</p>
+
+            </section>
+
+            <section class="informacao">
+
+                <h3>UF:</h3>
+                <p id="UF" class="informacao">Não Encontrado</p>
+
+            </section>
+
+            <section class=" SelecaobotaoVoltar" >
+
+                <button type="button" class="botaoVoltar" id="botaoVoltar" >Voltar</button>
+
+            </section>
+
+        </section>
+
+
+
+    </section>
+
+
+
+    <script src="arquivo.js"></script>
+</body>
+
+</html>

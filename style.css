@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: lightsteelblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.textoCEP {
+    height: 40px;
+    width: 500px;
+    text-align: center;
+    box-shadow: black 3px 4px 8px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+
+.classtextoDesaparecer {
+    border-radius: 5px 0 0 0;
+}
+
+.classtextoParecer {
+    border-radius: 5px 0 0 5px;
+
+}
+
+
+.botao {
+    height: 44px;
+    width: 40px;
+    box-shadow: black 3px 4px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.botaoAperecer {
+    border-radius: 0 5px 5px 0;
+}
+
+.botaoDesaparecer {
+    border-radius: 0 5px 0 0;
+}
+
+.diplayFLEX {
+    display: flex;
+    align-items: center;
+}
+
+.selecaoPrincipal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacoes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+    width: 540px;
+    background-color: cyan;
+    box-shadow: black 3px 3px 3px 3px;
+    border-radius: 0 0 5px 5px;
+}
+
+.informacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 10px;
+
+}
+
+.hide {
+    display: none;
+}
+
+.SelecaobotaoVoltar {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    justify-content: end;
+
+}
+
+.botaoVoltar {
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+    background-color: cyan;
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.textoValido{
+    font-size: 20px;
+    font-weight:600;
+    margin:10px ;
+    color: #fff;
+}
