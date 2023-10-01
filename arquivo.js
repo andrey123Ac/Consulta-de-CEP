@@ -45,6 +45,12 @@ const colocaInformacao = async (city) => {
 
 botao.addEventListener('click', () => {
 
+  rua.innerText = 'Não Encontrado';
+  Bairro.innerText = 'Não Encontrado';
+  CEP.innerText = 'Não Encontrado';
+  Localidade.innerText = 'Não Encontrado';
+  UF.innerText = 'Não Encontrado';
+
   const city = valor.value;
 
   if (city == "") {
@@ -69,12 +75,6 @@ botao.addEventListener('click', () => {
 
 
 botaoVoltar.addEventListener('click', () => {
-
-  rua.innerText = 'Não Encontrado';
-  Bairro.innerText = 'Não Encontrado';
-  CEP.innerText = 'Não Encontrado';
-  Localidade.innerText = 'Não Encontrado';
-  UF.innerText = 'Não Encontrado';
 
   area.classList.add('hide');
 
